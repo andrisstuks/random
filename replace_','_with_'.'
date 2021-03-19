@@ -1,3 +1,8 @@
+"""
+Ja tabulā ir gan datumi, gan int gan float, gan skaitļi, kas dēļ komata tiek uztverti kā str, varam pārvērst par skaitļiem šādi.
+"""
+
+
 for name in data.columns:               # Ielasam visus kolonnu nosaukumus
     val=[]                              # Uztaisam tukšu list
     for num in data[name]:              # Skatamies katru šūnu izvēlētajā kolonnā
