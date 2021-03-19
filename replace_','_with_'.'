@@ -1,5 +1,7 @@
 """
-Ja tabulā ir gan datumi, gan int gan float, gan skaitļi, kas dēļ komata tiek uztverti kā str, varam pārvērst par skaitļiem šādi.
+Ja tabulā ir gan datumi, gan int gan float, gan skaitļi, kas dēļ komata tiek uztverti kā str, varam pārvērst par vienāda tipa skaitļiem šādi.
+Pirms šīs oerācijas, lai neietekmētu datumu un laiku, to iestatam kā index? norādot to pie ievilkšanas
+data=pd.read_csv('Beorange.csv', index_col=0 )
 """
 
 
