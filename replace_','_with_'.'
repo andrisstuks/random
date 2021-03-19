@@ -1,0 +1,6 @@
+for name in data.columns:               # Ielasam visus kolonnu nosaukumus
+    val=[]                              # Uztaisam tukšu list
+    for num in data[name]:              # Skatamies katru šūnu izvēlētajā kolonnā
+        sal=str(num).replace(',','.')   # Tā kā maiņas operāciju varam veikt string, pārvēršam vērtību par string? nomainam komatu uz punktu
+        val.append(float(sal))          # ielīmējam to tukšajā list
+    data[name]=val                      # Nomainam visas vērtības izvēlētajā kolonnā uz jaunajām no list
